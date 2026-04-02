@@ -1,0 +1,18 @@
+2026-04-02 16:06:32,940 - INFO - Starting data ingestion...
+2026-04-02 16:06:40,336 - INFO - Schema of dataset:
+2026-04-02 16:06:40,344 - INFO - Preview of data:
+2026-04-02 16:06:40,893 - INFO - Number of rows:
+2026-04-02 16:06:42,033 - INFO - 2226382
+2026-04-02 16:06:42,033 - INFO - Closing down clientserver connection
+2026-04-02 16:10:30,837 - INFO - Starting data ingestion...
+2026-04-02 16:10:37,575 - INFO - Schema of dataset:
+2026-04-02 16:10:37,581 - INFO - Preview of data:
+2026-04-02 16:10:38,240 - INFO - Number of rows:
+2026-04-02 16:10:39,591 - INFO - 2226382
+2026-04-02 16:10:39,592 - INFO - Closing down clientserver connection
+2026-04-02 16:32:28,959 - INFO - Starting data ingestion...
+2026-04-02 16:32:37,575 - INFO - Schema of dataset:
+2026-04-02 16:32:37,581 - INFO - Preview of data:
+2026-04-02 16:32:38,219 - INFO - Number of rows:
+2026-04-02 16:32:39,756 - INFO - 2226382
+2026-04-02 16:32:39,756 - INFO - Closing down clientserver connection
