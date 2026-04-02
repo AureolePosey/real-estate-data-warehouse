@@ -1,13 +1,14 @@
-# On ignore tout le contenu des dossiers data
+# Ignore tout dans les dossiers data
 data/raw/*
 data/cleaned/*
 data/curated/*
 
-# Mais on ne doit pas ignorer les fichiers .gitkeep
+# SAUF les fichiers .gitkeep (le "!" veut dire "ne pas ignorer")
 !**/ .gitkeep
 
-# Autres fichiers inutiles
+# Reste des fichiers à ignorer
 .venv/
 __pycache__/
 *.zip
+*.csv
 *.Zone.Identifier
