@@ -16,3 +16,27 @@
 2026-04-02 16:32:38,219 - INFO - Number of rows:
 2026-04-02 16:32:39,756 - INFO - 2226382
 2026-04-02 16:32:39,756 - INFO - Closing down clientserver connection
+2026-04-03 03:17:14,943 - INFO - Starting data cleaning...
+2026-04-03 03:17:24,153 - INFO - Total rows in dataset: 2226382
+2026-04-03 03:17:24,492 - INFO - Missing values count:
+2026-04-03 03:17:27,911 - INFO - Dropped 'street' and 'brokered_by' columns.
+2026-04-03 03:17:29,948 - INFO - Filtered out rows with null values in 'price' and 'city' columns. Remaining rows: 2223437
+2026-04-03 03:17:36,392 - INFO - Dropped duplicate rows. Remaining rows: 2167424
+2026-04-03 03:17:41,247 - INFO - Total rows after cleaning: 2167424
+2026-04-03 03:17:41,248 - INFO - Percentage of rows dropped: 2.65%
+2026-04-03 03:17:41,248 - INFO - Schema of cleaned dataset:
+2026-04-03 03:17:41,256 - INFO - Preview of cleaned dataset:
+2026-04-03 03:17:45,925 - INFO - Data cleaning completed.
+2026-04-03 03:17:55,458 - INFO - Cleaned data saved to 'data/cleaned/cleaned_data.parquet'
+2026-04-03 03:17:55,459 - INFO - Closing down clientserver connection
+2026-04-03 17:19:17,086 - INFO - Starting data cleaning...
+2026-04-03 17:19:29,985 - INFO - Total rows in dataset: 2226382
+2026-04-03 17:19:30,226 - INFO - Missing values count:
+2026-04-03 17:19:32,854 - INFO - Dropped 'street' and 'brokered_by' columns.
+2026-04-03 17:19:36,444 - INFO - Total rows after cleaning: 1878928
+2026-04-03 17:19:36,444 - INFO - Percentage of rows dropped: 15.61%
+2026-04-03 17:19:36,445 - INFO - Schema of cleaned dataset:
+2026-04-03 17:19:36,447 - INFO - Preview of cleaned dataset:
+2026-04-03 17:19:42,592 - INFO - Data cleaning completed.
+2026-04-03 17:19:52,284 - INFO - Cleaned data saved to 'data/cleaned/cleaned_data.parquet'
+2026-04-03 17:19:52,285 - INFO - Closing down clientserver connection
