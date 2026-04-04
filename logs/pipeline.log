@@ -40,3 +40,22 @@
 2026-04-03 17:19:42,592 - INFO - Data cleaning completed.
 2026-04-03 17:19:52,284 - INFO - Cleaned data saved to 'data/cleaned/cleaned_data.parquet'
 2026-04-03 17:19:52,285 - INFO - Closing down clientserver connection
+2026-04-03 19:12:19,971 - INFO - Starting data transformation...
+2026-04-03 19:12:26,101 - INFO - Average price per square foot per city.
+2026-04-03 19:12:32,458 - INFO - Average price per square foot per property size category.
+2026-04-03 19:12:33,544 - INFO - Data transformation completed
+2026-04-03 19:12:34,014 - INFO - Data transformation completed. Saving transformed data to Parquet...
+2026-04-03 19:12:39,138 - INFO - Process finished successfully.
+2026-04-03 19:12:39,139 - INFO - Closing down clientserver connection
+2026-04-03 19:25:54,673 - INFO - Starting data transformation...
+2026-04-03 19:25:59,189 - INFO - Average price per square foot per city.
+2026-04-03 19:26:06,760 - INFO - Average price per square foot per property size category.
+2026-04-03 19:26:08,293 - INFO - Data transformation completed
+2026-04-03 19:26:08,732 - INFO - Data transformation completed. Saving transformed data to Parquet...
+2026-04-03 19:26:14,102 - INFO - Process finished successfully.
+2026-04-03 19:26:14,103 - INFO - Closing down clientserver connection
+2026-04-04 01:32:33,543 - INFO - Starting data transformation...
+2026-04-04 01:32:39,365 - INFO - Final validation : Average price per sqft by property size category:
+2026-04-04 01:32:45,868 - INFO - Data transformation completed. Saving transformed data to Parquet...
+2026-04-04 01:32:50,991 - INFO - Process finished successfully.
+2026-04-04 01:32:50,992 - INFO - Closing down clientserver connection
