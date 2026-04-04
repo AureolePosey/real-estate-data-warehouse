@@ -71,3 +71,9 @@
 2026-04-04 03:28:32,452 - INFO - Dimension 'dim_date' created and saved.
 2026-04-04 03:28:44,210 - INFO - Fact table 'fact_sales' created and saved.
 2026-04-04 03:28:47,938 - INFO - Closing down clientserver connection
+2026-04-04 18:33:43,031 - INFO - Starting dimension creation...
+2026-04-04 18:33:57,039 - INFO - Dimension 'dim_location' created and saved.
+2026-04-04 18:34:02,551 - INFO - Dimension 'dim_property' created and saved.
+2026-04-04 18:34:06,103 - INFO - Dimension 'dim_date' created and saved.
+2026-04-04 18:34:15,678 - INFO - Fact table 'fact_sales' created and saved.
+2026-04-04 18:34:18,222 - INFO - Closing down clientserver connection
