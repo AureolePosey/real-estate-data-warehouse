@@ -77,3 +77,13 @@
 2026-04-04 18:34:06,103 - INFO - Dimension 'dim_date' created and saved.
 2026-04-04 18:34:15,678 - INFO - Fact table 'fact_sales' created and saved.
 2026-04-04 18:34:18,222 - INFO - Closing down clientserver connection
+2026-04-04 19:03:04,382 - INFO - Loading modeled data from parquet files...
+2026-04-04 19:03:12,130 - INFO - Executing analytical SQL queries...
+2026-04-04 19:03:23,228 - INFO - Analytics reports execution completed.
+2026-04-04 19:03:23,229 - INFO - Closing down clientserver connection
+2026-04-04 19:19:22,511 - INFO - Loading modeled data and registering views...
+2026-04-04 19:19:29,320 - INFO - Running report: TOP 10 MOST EXPENSIVE CITIES
+2026-04-04 19:19:37,143 - INFO - Running report: PRICE PERFORMANCE BY CATEGORY
+2026-04-04 19:19:38,977 - INFO - Running report: QUARTERLY SALES VOLUME TRENDS
+2026-04-04 19:19:40,576 - INFO - Analytics reports execution completed.
+2026-04-04 19:19:40,576 - INFO - Closing down clientserver connection
