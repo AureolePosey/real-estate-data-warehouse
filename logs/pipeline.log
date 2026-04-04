@@ -124,3 +124,43 @@
 2026-04-04 20:08:26,300 - INFO - Analytics reports execution completed.
 2026-04-04 20:08:26,300 - INFO - Full Pipeline Completed Successfully!
 2026-04-04 20:08:26,301 - INFO - Closing down clientserver connection
+2026-04-04 21:18:13,217 - INFO - Loading modeled data and registering views...
+2026-04-04 21:18:18,320 - INFO - Running report: TOP 10 MOST EXPENSIVE CITIES
+2026-04-04 21:18:25,244 - INFO - Running report: PRICE PERFORMANCE BY CATEGORY
+2026-04-04 21:18:26,865 - INFO - Running report: QUARTERLY SALES VOLUME TRENDS
+2026-04-04 21:18:28,236 - INFO - Analytics reports execution completed.
+2026-04-04 21:18:28,237 - INFO - Closing down clientserver connection
+2026-04-04 21:47:21,097 - INFO - Starting Full Data Warehouse Pipeline...
+2026-04-04 21:47:21,098 - INFO - Step 1: Ingestion...
+2026-04-04 21:47:34,301 - INFO - Starting data ingestion...
+2026-04-04 21:47:45,428 - INFO - Schema of dataset:
+2026-04-04 21:47:45,432 - INFO - Preview of data:
+2026-04-04 21:47:46,006 - INFO - Number of rows:
+2026-04-04 21:47:47,238 - INFO - 2226382
+2026-04-04 21:47:47,239 - INFO - Step 2: Cleaning...
+2026-04-04 21:47:47,250 - INFO - Starting data cleaning...
+2026-04-04 21:47:50,917 - INFO - Total rows in dataset: 2226382
+2026-04-04 21:47:51,255 - INFO - Missing values count:
+2026-04-04 21:47:53,981 - INFO - Dropped 'street' and 'brokered_by' columns.
+2026-04-04 21:47:59,728 - INFO - Total rows after cleaning: 1878928
+2026-04-04 21:47:59,729 - INFO - Percentage of rows dropped: 15.61%
+2026-04-04 21:47:59,729 - INFO - Schema of cleaned dataset:
+2026-04-04 21:47:59,731 - INFO - Preview of cleaned dataset:
+2026-04-04 21:48:07,884 - INFO - Data cleaning completed.
+2026-04-04 21:48:07,885 - INFO - Step 3: Transformation...
+2026-04-04 21:48:07,895 - INFO - Starting data transformation...
+2026-04-04 21:48:08,761 - INFO - Final validation : Average price per sqft by property size category:
+2026-04-04 21:48:11,347 - INFO - Step 4: Modeling...
+2026-04-04 21:48:11,362 - INFO - Starting dimension creation...
+2026-04-04 21:48:15,153 - INFO - Dimension 'dim_location' created and saved.
+2026-04-04 21:48:18,293 - INFO - Dimension 'dim_property' created and saved.
+2026-04-04 21:48:21,044 - INFO - Dimension 'dim_date' created and saved.
+2026-04-04 21:48:30,751 - INFO - Fact table 'fact_sales' created and saved.
+2026-04-04 21:48:33,593 - INFO - Step 5: Analytics Reports...
+2026-04-04 21:48:33,599 - INFO - Loading modeled data and registering views...
+2026-04-04 21:48:34,035 - INFO - Running report: TOP 10 MOST EXPENSIVE CITIES
+2026-04-04 21:48:36,253 - INFO - Running report: PRICE PERFORMANCE BY CATEGORY
+2026-04-04 21:48:37,553 - INFO - Running report: QUARTERLY SALES VOLUME TRENDS
+2026-04-04 21:48:38,634 - INFO - Analytics reports execution completed.
+2026-04-04 21:48:38,634 - INFO - Full Pipeline Completed Successfully!
+2026-04-04 21:48:38,635 - INFO - Closing down clientserver connection
