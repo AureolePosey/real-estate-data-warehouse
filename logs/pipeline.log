@@ -59,3 +59,15 @@
 2026-04-04 01:32:45,868 - INFO - Data transformation completed. Saving transformed data to Parquet...
 2026-04-04 01:32:50,991 - INFO - Process finished successfully.
 2026-04-04 01:32:50,992 - INFO - Closing down clientserver connection
+2026-04-04 03:17:57,256 - INFO - Starting dimension creation...
+2026-04-04 03:18:08,843 - INFO - Dimension 'dim_location' created and saved.
+2026-04-04 03:18:15,307 - INFO - Dimension 'dim_property' created and saved.
+2026-04-04 03:18:18,521 - INFO - Dimension 'dim_date' created and saved.
+2026-04-04 03:18:30,006 - INFO - Fact table 'fact_sales' created and saved.
+2026-04-04 03:18:34,491 - INFO - Closing down clientserver connection
+2026-04-04 03:28:12,613 - INFO - Starting dimension creation...
+2026-04-04 03:28:22,334 - INFO - Dimension 'dim_location' created and saved.
+2026-04-04 03:28:29,021 - INFO - Dimension 'dim_property' created and saved.
+2026-04-04 03:28:32,452 - INFO - Dimension 'dim_date' created and saved.
+2026-04-04 03:28:44,210 - INFO - Fact table 'fact_sales' created and saved.
+2026-04-04 03:28:47,938 - INFO - Closing down clientserver connection
